@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #333d29;
+}
+
+.menuButtons{
+    color: white;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: end;
+    align-items: center;
+    font-family: "Jua";
+    font-size: 200px;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #936639;
+}
+/*for structure of page layout**/
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+/*left side styling**/
+.left-pannel{
+    display: flex;
+    flex-direction: column;
+}
+
+.REVIEW{
+    color: white;
+    font-family: "Jua";
+    font-size: 90px;
+    line-height: 70px;
+    margin-top: 40px;
+    flex-shrink: 1;
+}
+
+.location{
+    width: 30px;
+    height: 40px;
+    margin-left: 950px;
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.Map{
+    width: 1000px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-top: 5px;
+    object-fit: fill;
+    border-radius: 16px;
+}
+
+
+/*right side styling**/
+.right-pannel{
+    background-color:#333d29;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    margin-right: 50px;
+}
+
+
+.confirm{
+    background-color: #4e311a;      
+    border-radius: 10px;           
+    width: 350px;
+    height: auto;
+    flex-shrink: 0;                  
+    padding: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);            
+    font-family: 'Jua', sans-serif; 
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.DeliveryOptions{
+    font-size: 30px;
+}
+
+.delivery-btn{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, auto); 
+    border-color: #c2c5aa;
+    border-width: 2px;
+}
+
+.type{
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.time{
+    color: #FFFF;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.logo{
+    width: 40px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.sum{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.pencil{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-top: 8px;
+}
+.orders{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, auto);  
+    font-size: 15px;
+}
+
+
+.order-btn, .cancel-btn {
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-btn {
+    background-color: #2D4E36; 
+}
+
+.cancel-btn {
+    background-color: #6C7A59; 
+}
+
+.order-btn:hover, .cancel-btn:hover {
+    opacity: 0.9;
+    background-color: #936639;
+}
+
+
+@media (max-width: 1200px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    
+.REVIEW{
+    color: white;
+    font-family: "Jua";
+    font-size: 40px;
+    line-height: 70px;
+    margin-top: 40px;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+.location{
+    width: 30px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.Map{
+    width: 500px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-top: 5px;
+    object-fit: fill;
+    border-radius: 16px;
+}
+
+
+.right-pannel{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    background-color:#333d29;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+}
+
+
+
+}

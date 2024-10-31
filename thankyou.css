@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #333d29;
+} 
+
+
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main1{
+    color: #FFFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.main2{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110px; 
+}
+
+
+.proceed {
+    background-color: #582f0e;
+    height: 300px;
+    width: 100%;
+    margin-top: -20px;
+
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+.order-btn, .cancel-btn {
+    padding: 10px 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.order-btn {
+    background-color: #2D4E36; 
+}
+
+.cancel-btn {
+    background-color: #6C7A59; 
+}
+
+
+.order-btn:hover, .cancel-btn:hover {
+    opacity: 0.9;
+    background-color: #c2c5aa;
+}
